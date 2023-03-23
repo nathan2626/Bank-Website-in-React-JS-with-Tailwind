@@ -6,12 +6,12 @@ const CardDeal = () => (
   <section className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Rejoignez les rangs de  <br className="sm:block hidden" />  nos clients satisfaits
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+      Nos experts sont formés aux dernières tendances et technologies 
+      pour vous offrir des solutions à la pointe de l'innovation.
+
       </p>
 
       <Button styles={`mt-10`} />

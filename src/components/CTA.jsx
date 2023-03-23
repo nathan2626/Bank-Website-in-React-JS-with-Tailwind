@@ -2,12 +2,13 @@ import styles from "../style";
 import Button from "./Button";
 
 const CTA = () => (
-  <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+  <section id="contact" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
     <div className="flex-1 flex flex-col">
-      <h2 className={styles.heading2}>Let’s try our service now!</h2>
+      <h2 className={styles.heading2}>Contactez-nous</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Everything you need to accept card payments and grow your business
-        anywhere on the planet.
+      Vous souhaitez en savoir plus sur notre agence et nos services ? 
+      Contactez-nous pour discuter de votre projet et obtenir un devis personnalisé.
+
       </p>
     </div>
 
